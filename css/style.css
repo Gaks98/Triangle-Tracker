@@ -4,8 +4,6 @@ body{
     background-image: url("https://bit.ly/2Oi0xvS");
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
 }
 .box{
     position: absolute;
@@ -32,6 +30,9 @@ body{
 .btn:hover{
     font-size: 20px;
     color: orange;
+}
+h1{
+    color: antiquewhite;
 }
 .input1{
     padding: 20px;
