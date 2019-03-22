@@ -27,6 +27,7 @@ body{
     padding: 14px;
     background-color: rgb(53, 227, 250);
     border-radius: 10px;
+    border: none;
 }
 .btn:hover{
     font-size: 20px;
