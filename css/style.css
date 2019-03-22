@@ -35,7 +35,10 @@ body{
     background-color: blue;
 }
 h1{
-    color: antiquewhite;
+    color: rgb(53, 227, 250);
+}
+h1:hover{
+    font-size:40px;
 }
 .input1{
     padding: 20px;
