@@ -27,3 +27,4 @@ triangle();
 if (isNaN(sideA) || isNaN(sideB) || isNaN(sideC)) {
     triType.textContent = "Please enter numbers only!";
 }
+(sideA===null || sideB===null || sideC===null)

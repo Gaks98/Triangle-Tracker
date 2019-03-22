@@ -19,9 +19,11 @@ function triangle(){
         var isosceles = "isosceles";
         triType.textContent = "Triangle : " + isosceles;
     }
-    else  {
+    else if(a!==b && b!==c && c!==a) {
         var scalene = "scalene";
         triType.textContent = "Triangle : " + scalene;
     }
-
+    else {
+        triType.textContent = "Enter valid number"
+    }
 }
