@@ -26,10 +26,12 @@ body{
 .btn{
     padding: 14px;
     background-color: rgb(53, 227, 250);
+    border-radius: 10px;
 }
 .btn:hover{
     font-size: 20px;
     color: white;
+    background-color: blue;
 }
 h1{
     color: antiquewhite;
@@ -48,4 +50,7 @@ h1{
     padding: 20px;
     color: rgb(53, 227, 250);
     font-weight: bold;
+}
+.tri{
+    color: white;
 }
