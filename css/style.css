@@ -23,6 +23,11 @@ body{
 }
 .btn{
     padding: 14px;
+    color: blue;
+}
+.btn:hover{
+    font-size: 20px;
+    color: orange;
 }
 .input1{
     padding: 20px;
