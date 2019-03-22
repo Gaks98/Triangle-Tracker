@@ -7,15 +7,17 @@
     <title>Triangle Tracker</title>
   </head>
   <body>
+    <div class = "box">
     <h1>Triangle Tracker</h1>
     <p>
-      Side A: <input type="number" size = "5" id="A" placeholder="side A">
-      Side B: <input type="number" size = "5" id="B" placeholder="side B">
-      Side C: <input type="number" size = "5" id="C" placeholder="side C">
+      Side A: <input type="number" size = "5" id="A" placeholder="side A" required>
+      Side B: <input type="number" size = "5" id="B" placeholder="side B" required>
+      Side C: <input type="number" size = "5" id="C" placeholder="side C" required>
     </p>
     <br><br>
     <button type="button" onclick="triangle()">Try Out</button>
-    <p id = "triType">Triangle : </p>
+    <p id = "triType" class="tri">Triangle : </p>
     <script src="js/script2.js"></script>
+  </div>
   </body>
 </html>
