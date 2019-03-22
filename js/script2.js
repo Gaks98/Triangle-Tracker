@@ -4,7 +4,10 @@ function triangle(){
     var sideC = parseFloat(document.getElementById("C").value);
     var triType = document.getElementById("triType");
 
-    if ((sideA===sideB && sideB===sideC)){
+    if(sideA <=0 ||  sideB <= 0 || sideC <= 0){
+        triType.textContent = "values too small to form triangle"
+    }
+    else if ((sideA===sideB && sideB===sideC)){
         var equilateral = "equilateral";
         triType.textContent = "Triangle : " + equilateral;
     }
