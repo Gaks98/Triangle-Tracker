@@ -14,7 +14,12 @@ body{
     background: rgba(0,0,0,.7);
     border-radius: 10px;
     box-shadow: 0 15px 4px rgba(0,0,0,.6);
-
+    animation: boxblur 3s infinite;
+}
+@keyframes boxblur{
+    50% {
+        box-shadow: 10px 20px 30px rgba(0,0,0,.9);
+    }
 }
 .input1{
     padding: 20px;
