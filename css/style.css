@@ -33,7 +33,7 @@ body{
 .btn:hover{
     font-size: 20px;
     color: white;
-    background-color: blue;
+    background-color: rgb(10, 171, 235);
 }
 h1{
     color: rgb(53, 227, 250);
