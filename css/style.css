@@ -10,8 +10,10 @@ body{
     transform: translate(-50%,-50%);
     text-align: center;
     width: 400px;
+    box-sizing: border-box; /*made the box width shrink. This typically makes it much easier to size elements.*/
     background: rgba(0,0,0,.7);
     border-radius: 10px;
+    box-shadow: 0 15px 4px rgba(0,0,0,.6);
 
 }
 .input1{
