@@ -25,7 +25,7 @@ body{
 }
 .btn{
     padding: 14px;
-    color: blue;
+    background-color: rgb(53, 227, 250);
 }
 .btn:hover{
     font-size: 20px;
@@ -36,10 +36,16 @@ h1{
 }
 .input1{
     padding: 20px;
+    color: rgb(53, 227, 250);
+    font-weight: bold;
 }
 .input2{
     padding: 20px;
+    color: rgb(53, 227, 250);
+    font-weight: bold;
 }
 .input3{
     padding: 20px;
+    color: rgb(53, 227, 250);
+    font-weight: bold;
 }
