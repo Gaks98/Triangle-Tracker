@@ -4,7 +4,10 @@ function triangle(){
     var sideC = parseFloat(document.getElementById("C").value);
     var triType = document.getElementById("triType");
 
-    if(sideA <=0 ||  sideB <= 0 || sideC <= 0){
+    if (isNaN(sideA) || isNaN(sideB) || isNaN(sideC)) {
+        triType.textContent = "Please enter numbers only!";
+    }
+    else if(sideA <=0 ||  sideB <= 0 || sideC <= 0){
         triType.textContent = "values too small to form triangle"
     }
     else if ((sideA===sideB && sideB===sideC)){
