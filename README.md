@@ -30,7 +30,7 @@ Cannot function if no values are inputed or rather the wrong type of values are 
 
 Returns the type of triangle if right values are inputed.
 
-# How to run
+## How to run
 Just input numbers in the input fields.
 
 # Support and contact details
