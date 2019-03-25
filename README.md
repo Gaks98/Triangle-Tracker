@@ -20,19 +20,20 @@ This is stands for behaviour driven development that explains the blueprint that
 
 ## Features
 
-## | behaviour         |         input                               |    output
-  |--------------------|:---------------------------------------------|----------------------------------------
-  | no input           | isNaN(sideA) || isNaN(sideB) || isNaN(sideC) | input numbers only
+## | behaviour                       |         input                                     |    output
+  |----------------------------------|:--------------------------------------------------|-------------------------------
   
-  |negative or 0 input | sideA <=0 ||  sideB <= 0 || sideC <= 0       | values too small to form triangle
+  |    no input                      | isNaN(sideA) || isNaN(sideB) || isNaN(sideC)      | input numbers only
   
-  |all sides equal     | sideA===sideB && sideB===sideC               | triangle equilateral
+  |   negative or 0 input            | sideA <=0 ||  sideB <= 0 || sideC <= 0            | values too small to form triangle
   
-  |two sides and their |sideA+sideB <= sideC || sideA+sideC <= sideB  |
-  |sum greater than the| || sideB+sideC <= sideA                      | triangle equilateral
-  |third side          |                                              |
+  |  all sides equal                 | sideA===sideB && sideB===sideC                    | triangle equilateral
   
-  |no equal side       |sideA!==sideB && sideB!==sideC                |triangle isosceles
+  |  two sides and their             | sideA+sideB <= sideC || sideA+sideC <= sideB      |
+  |  sum greater than the            | || sideB+sideC <= sideA                           | triangle equilateral
+  |  third side                      |                                                   |
+  
+  |  no equal side                   |  sideA!==sideB && sideB!==sideC                   |  triangle isosceles
 
 ## How to run
 Just input numbers in the input fields.
